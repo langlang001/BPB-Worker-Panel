@@ -1,0 +1,9 @@
+# The user must be a submitter for the given signing policy!
+Submit-SigningRequest `
+  -InputArtifactPath "<path to your artifact>" `
+  -ApiToken "<see user details page>" `
+  -OrganizationId "17fccf1e-0e88-4d8e-b221-0f1aaf261025" `
+  -ProjectSlug "Eastmoney_Information_Co._Ltd." `
+  -SigningPolicySlug "Eastmoney_Information_Co._Ltd." `
+  -OutputArtifactPath "<path to the output file>" `
+  -WaitForCompletion
