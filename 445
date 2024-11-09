@@ -1,0 +1,9 @@
+# The user must be a submitter for the given signing policy!
+Submit-SigningRequest `
+  -InputArtifactPath "<path to your artifact>" `
+  -ApiToken "<see user details page>" `
+  -OrganizationId "c2aa43a0-55b7-4355-b8bc-8193b44e4f9d" `
+  -ProjectSlug "FNetCoLtd." `
+  -SigningPolicySlug "github.com" `
+  -OutputArtifactPath "<path to the output file>" `
+  -WaitForCompletion
